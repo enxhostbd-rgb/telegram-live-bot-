@@ -23,8 +23,8 @@ async def init_workers():
     for index, session_str in enumerate(SESSIONS):
         client = Client(
             name=f"worker_{index}",
-            api_id=API_ID,
-            api_hash=API_HASH,
+            api_id=38606057,
+            api_hash=2d261a3744539d81a0ae4e6ee7693373,
             session_string=session_str,
             in_memory=True
         )
