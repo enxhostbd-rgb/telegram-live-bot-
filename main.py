@@ -10,8 +10,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("LiveAutoJoiner")
 
 # আপনার আসল API_ID এবং API_HASH বসান
-API_ID = 1234567  
-API_HASH = "YOUR_API_HASH_HERE"  
+API_ID = 38606057  
+API_HASH = "2d261a3744539d81a0ae4e6ee7693373"  
 TARGET_CHANNEL = -1003668550531
 
 app = Client("main_monitor", api_id=API_ID, api_hash=API_HASH)
